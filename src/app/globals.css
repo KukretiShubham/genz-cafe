@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.team-member {
+  flex-basis: 33.33%;
+  position: relative;
+}
