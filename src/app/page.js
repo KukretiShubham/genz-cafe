@@ -19,10 +19,10 @@ export default function Home() {
         So will be Virtuality
       </p>
       </div>
-      <div className='text-6xl pt-20 text-white'>
+      <div className='italic text-6xl pt-20 text-white'>
         All you need is Genz Cafe
       </div>
-      <p className="text-2xl pt-2 text-white">
+      <p className="italic text-2xl pt-2 text-white">
         (A Suite of Perspective rendering Solutions)
       </p>
       <div className="grid grid-cols-2 gap-x-28 gap-y-8 md:gap-y-28 justify-end w-full max-w-4xl mt-12">
