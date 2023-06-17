@@ -2,41 +2,47 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-end pt-32 pb-8 bg-black">
+    <div className="flex flex-col items-center justify-end bg-black">
+      <div className='text-2xl text-white'>Genz Cafe</div>
       <div className="carousel carousel-end">
-        <div className="carousel-item w-full">
+        <div className="relative carousel-item w-full">
           <Image
             alt="hero"
-            src="https://i.ibb.co/DbFbCSP/DALL-E-2023-06-16-23-58-21-fill-the-image.png"
-            height={563}
-            width={1280}
+            src="https://i.ibb.co/JFzMf41/hero.jpg"
+            height={573}
+            width={1019}
           />
         </div>
-      </div>
-      <p className="text-8xl text-white">
+        <p className="abosolute text-8xl text-white top-1/2 left-1/2">
         World is Crowdy!
         <br />
         So will be Virtuality
       </p>
-      <p className="text-4xl text-white">
-        Suite of Perspective rendering Solutions
+      </div>
+      <div className='text-6xl pt-20 text-white'>
+        All you need is Genz Cafe
+      </div>
+      <p className="text-2xl pt-2 text-white">
+        (A Suite of Perspective rendering Solutions)
       </p>
       <div className="grid grid-cols-2 gap-x-28 gap-y-8 md:gap-y-28 justify-end w-full max-w-4xl mt-12">
+        <a href='https://www.npmjs.com/package/gez-sdk'>
         <div className="flex items-center justify-center h-full px-8 py-20 bg-gray-900 shadow rounded-2xl">
           <p className="text-4xl text-center text-white">Genz SDK</p>
         </div>
+        </a>
         <p className="text-2xl text-white">
           An SDK to quickly get wallets compatible with the provided match score.
         </p>
+        <a href='https://landing-page-dodao.vercel.app/'>
         <div className="flex items-center justify-center h-full px-8 py-20 bg-gray-900 shadow rounded-2xl">
           <p className="text-4xl text-center text-white">Customizable virtual spaces</p>
         </div>
+        </a>
         <p className="text-2xl text-white">
           Virtual Spaces that can be customized according to your preferences.
         </p>
-      </div>
-      <div className="grid grid-cols-2 gap-x-28 gap-y-8 md:gap-y-28 justify-end w-full max-w-4xl mt-12">
-        <div className="flex items-center justify-center h-80 px-8 py-32 bg-gray-900 shadow rounded-2xl">
+        <div className="flex items-center justify-center h-full px-8 py-20 bg-gray-900 shadow rounded-2xl">
           <p className="text-4xl text-white">genEngine</p>
         </div>
         <p className="text-2xl text-white">
@@ -79,7 +85,7 @@ export default function Home() {
         </div>
       </div>
       <p className="text-4xl pt-10 text-center text-white" style={{ width: 1000, height: 147 }}>
-        Building with ❤️
+        Building with ❤️ & 🧠
       </p>
     </div>
   );
